@@ -24,7 +24,7 @@ $(function () {
             var json = {name: name, phone: phone, email: email, message: message}
             $.ajax({
                 // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  -------- 
-                url: "https://3q3kx470t9.execute-api.us-east-1.amazonaws.com/default/gabe-model-solution",
+                url: "https://xpjdxuzgk9.execute-api.us-east-1.amazonaws.com/default/gabe-ms",
                 // ------------------------------------------------------  
                 type: "POST",
                 data: JSON.stringify(json),
